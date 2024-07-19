@@ -2,6 +2,8 @@
 
 This extension will automatically convert single quotes into double quotes when we do interpolation.
 
+![Demo](images/demo.gif)
+
 You are typing in a single quote when you type #{} and turn eum into a single quote.
 
 ## Known Issues
