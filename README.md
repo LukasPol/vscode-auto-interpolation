@@ -2,7 +2,7 @@
 
 This extension will automatically convert single quotes into double quotes when we do interpolation.
 
-![Demo](images/demo.gif)
+![Demo](https://github.com/LukasPol/vscode-auto-interpolation/blob/main/images/demo.gif?raw=true)
 
 You are typing in a single quote when you type #{} and turn eum into a single quote.
 
