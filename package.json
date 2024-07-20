@@ -15,7 +15,13 @@
     "vscode": "^1.85.0"
   },
   "categories": [
+    "Formatters",
     "Other"
+  ],
+  "keywords": [
+    "string",
+    "interpolation",
+    "bracket"
   ],
   "activationEvents": [
     "onLanguage:ruby"
