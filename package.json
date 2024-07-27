@@ -27,7 +27,15 @@
     "onLanguage:ruby"
   ],
   "main": "./out/extension.js",
-  "contributes": {},
+  "contributes": {
+    "keybindings": [
+      {
+        "command": "interpolation.AddInterpolation",
+        "key": "shift+3",
+        "when": "editorTextFocus && (editorLangId == 'ruby' || editorLangId == 'erb' || editorLangId == 'haml')"
+      }
+    ]
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
